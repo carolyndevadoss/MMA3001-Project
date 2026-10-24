@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content/MMA3001-Project
+plugins: platformdirs-4.13.5, anyio-4.15.1, typeguard-4.6.0, langsmith-0.14.11
+collecting ... collected 6 items
+
+test/test_temperature_utils.py::test_perfect_predictions PASSED          [ 16%]
+test/test_temperature_utils.py::test_known_prediction_errors PASSED      [ 33%]
+test/test_temperature_utils.py::test_empty_inputs PASSED                 [ 50%]
+test/test_temperature_utils.py::test_mismatched_lengths PASSED           [ 66%]
+test/test_temperature_utils.py::test_non_finite_values PASSED            [ 83%]
+test/test_temperature_utils.py::test_multidimensional_inputs PASSED      [100%]
+
+============================== 6 passed in 0.09s ===============================
